@@ -14,3 +14,10 @@ First you need a old ODB1 connector<br>
 There are plenty online, just make sure you get one that fits and has all the required connectors
 <img width="1103" height="814" alt="image" src="https://github.com/user-attachments/assets/c5409f6d-71b0-44f3-8d90-e2adb496ff70" />
 
+You then want to find which cable is pins:<br>
+VF1, E1 and TE2
+<img width="300" height="188" alt="image" src="https://github.com/user-attachments/assets/97b651ce-0415-4180-92aa-6c015a3cbf74" />
+
+T2 or TE2 and E1 both need to go to ground<br>
+VF1 goes to your data in pin (In my case D2)<br>
+You also need to ground D2 to ground via a 1.5-3.3 nF capacitor
