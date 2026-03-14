@@ -21,3 +21,6 @@ VF1, E1 and TE2
 T2 or TE2 and E1 both need to go to ground<br>
 VF1 goes to your data in pin (In my case D2)<br>
 You also need to ground D2 to ground via a 1.5-3.3 nF capacitor
+
+I then captured the raw bit stream from the output and ran it through AI to take what data already was found, and what other data we could pull out of the data stream and have complied the arduino sketch with these findings
+I have tried to comment the script the best I can to make it easy to follow what is going on.
